@@ -1,0 +1,11 @@
+#Mobs Ignore#
+#Shield functionality options
+shield:
+  enabled: true
+  #How much to lower damage dealt to players with the shield (finalDamage=originalDamage/damageModifier)
+  damageModifier: 5
+#Ignore functionality
+ignore:
+  enabled: false
+#Config version
+version: 1

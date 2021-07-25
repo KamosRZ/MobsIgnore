@@ -1,0 +1,19 @@
+name: MobsIgnore
+version: ${project.version}
+main: bg.hollyweed.mobsignore.MobsIgnore
+api-version: 1.16
+authors: [KamosRZ]
+description: Mobs ignore you based on permissions
+
+commands:
+  mobsignorereload:
+    description: Reloads the configuration
+    usage: /mobsignorereload
+    permission: mobsignore.reload
+    aliases: mir
+
+permissons:
+  mobsignore.ignore:
+    description: Main permission
+  mobsignore.shield:
+    description: Reduces damage from mobs
